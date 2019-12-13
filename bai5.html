@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Caculator</h1>
+    <form>
+        A: <input type="text" id="text1">
+        B: <input type="thatb" id="thatb1">
+
+    </form>
+    <button type="button" onclick="a1 ()"> addtion (+)</button>
+    <button type="button" onclick="aaaaa()"> subtraction (-)</button>
+    <button type="button" onclick="a3()"> mutliplication (*)  </button>
+    <button type="button" onclick="a4()"> division(/) </button>
+    <div id="demo"></div>
+    <script>
+    function a1() {
+        let a = parseInt(document.getElementById("text1").value);
+        let b = parseInt(document.getElementById("thatb1").value);
+        let area = a + b;
+        document.getElementById ("demo").innerHTML= area;
+    }
+
+    function aaaaa() {
+        let a = parseInt(document.getElementById("text1").value);
+        let b = parseInt(document.getElementById("thatb1").value);
+        let erea = a - b;
+        document.getElementById ("demo").innerHTML= erea;
+    }
+    function a3(){
+        let a = parseInt(document.getElementById("text1").value);
+        let b = parseInt(document.getElementById("thatb1").value)
+        let erea = a * b;
+        document.getElementById ("demo").innerHTML = erea;
+    }
+    
+    function a4(){
+        let a = parseInt(document.getElementById("text1").value);
+        let b = parseInt(document.getElementById("thatb1").value);
+        let erea = a/b;
+        document.getElementById("demo").innerHTML = erea;
+    }
+
+    
+    
+    </script>
+
+</body>
+</html>
